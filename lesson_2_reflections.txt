@@ -8,3 +8,8 @@ Git does not do an initial commit when doing the initialization.
 
 Staging area only has files that are  being tracked. Repository has files that have been committed.  Working directory can contain files that are in staging area or repository or neither.
 
+*How can you use the staging area to make sure you have one commit per logical change?
+
+Using git diff --staged to compare the staging area to the most recent commit.
+
+*
