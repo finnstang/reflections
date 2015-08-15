@@ -1,0 +1,10 @@
+*What happens when you initialize a repository? Why do you need to do it?
+
+Initializing with git init makes the directory you are in a repository for git.
+Initially, any files in that repository will be untracked.
+Git does not do an initial commit when doing the initialization.
+
+*How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area only has files that are  being tracked. Repository has files that have been committed.  Working directory can contain files that are in staging area or repository or neither.
+
