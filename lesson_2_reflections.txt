@@ -16,4 +16,14 @@ Using git diff --staged to compare the staging area to the most recent commit.
 
 Branches are helpful when making a separate version of a project.  Each version can be tracked independently but then can be merged again later if necessary.
 
-*
+*How do the diagrams help you visualize the branch structure?
+
+Diagrams make it easier to see which commits are included in each branch and where the branch started.
+
+*What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging will add any lines to the Master branch that were introduced by the merging branch.  It will also remove any lines from Master branch that were removed in the merging branch.
+
+*What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic mergin can save time, but can sometimes make mistakes.
